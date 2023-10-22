@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <conio.h>
+int main(){
+int c;
+float f;
+
+scanf("%d",&c);
+f=(c*9/5)+32;
+printf("\n%.2f",f);
+
+return 0;
+}
